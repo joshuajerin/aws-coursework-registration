@@ -4,8 +4,11 @@ A Flask and SQLite web application deployed to an Ubuntu 24.04 EC2 instance for 
 
 ## Live deployment
 
-- Public URL: http://3.89.79.132/
+- Public HTTPS URL: https://occurred-psychology-lime-score.trycloudflare.com/
+- Direct EC2 HTTP URL: http://3.89.79.132/
 - Platform: AWS EC2, Ubuntu Server 24.04 LTS, Apache2, mod_wsgi, Flask, SQLite3
+
+The HTTPS URL is provided through a Cloudflare Quick Tunnel and is available while its tunnel process remains online. The direct EC2 URL is HTTP-only.
 
 ## Assignment features
 
